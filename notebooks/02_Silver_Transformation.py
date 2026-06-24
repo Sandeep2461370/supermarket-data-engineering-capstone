@@ -20,8 +20,9 @@
 
 # COMMAND ----------
 
-storage_account_name = "stsupermarketcapstoness"
-storage_account_key = "4461Hm1kc6PTrLSL1zu2LnMnBz9aAzK7tiRMFOK3pcPS+jWzVa3FUnwtrsWmHDeiwr4AXtQVrsmx+AStnBsYGg=="
+# Retrieved from Azure Key Vault in production
+storage_account_name = "<storage_account_name>"
+storage_account_key = "<storage_account_key>"
 
 spark.conf.set(
     f"fs.azure.account.key.{storage_account_name}.dfs.core.windows.net",
