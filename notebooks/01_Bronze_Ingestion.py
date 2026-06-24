@@ -1,3 +1,13 @@
+# Bronze Layer Ingestion
+
+Objective:
+Read raw CSV files from Azure Data Lake Storage Gen2 and convert them into Delta tables in the Bronze layer using PySpark.
+
+Features:
+- Parameterized notebook
+- Dynamic folder and file processing
+- Delta Lake storage format
+- ADF integration using notebook parameters
 # Databricks notebook source
 # MAGIC %md
 # MAGIC **Configure ADLS Access in Notebook**
